@@ -1,2 +1,2 @@
-�EtestOutput.ps1�̈�����filename.lst�̃t���p�X���w�肵�Ď��s����ƁA���X�g�t�@�C���ɂ���t�@�C���ɒǋL�����
+・testOutput.ps1の引数にfilename.lstのフルパスを指定して実行すると、リストファイルにあるファイルに追記される（実行場所をミスるとうまく動かないので注意）
 
