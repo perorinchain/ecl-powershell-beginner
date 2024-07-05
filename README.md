@@ -12,8 +12,8 @@ Windowsでコマンドレットを実行するには、PowerShellを使います
 - スタートメニューの検索のところで「PowerShell」と打って出てくる「Windows PowerShell」をクリックして開く
 - `Windowsキー+R` で「ファイル名を指定して実行」を開いて、「powershell」と入力してEnter or [OK]
 
-※開くときに「管理者として実行」というオプションがあったりしますが、今回は特に使わなくて大丈夫です。管理者の実行権限が必要な場合に使う機能です。
-※PowerShellを始めて使う場合、権限で怒られる可能性があります。この場合には「ExecutionPolicy」というのをググってみてください。 `Set-ExecutionPolicy` で適切な権限に設定すると、PowerShellを実行できるようになります。
+※開くときに「管理者として実行」というオプションがあったりしますが、今回は特に使わなくて大丈夫です。管理者の実行権限が必要な場合に使う機能です。<br>
+※PowerShellを始めて使う場合、権限で怒られる可能性があります。この場合には「ExecutionPolicy」というのをググってみてください。 [`Set-ExecutionPolicy` で適切な権限に設定する](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4)と、PowerShellを実行できるようになります。
 
 ## おためし１：よく使うコマンドレットを使ってみよう！
 ### Get-Help
