@@ -132,6 +132,15 @@ PS C:\work> Copy-Item -Path test.txt -Destination test2.txt
 PS C:\work> Start-Process "notepad"
 ```
 
+### アプリ起動
+「.exe」ファイルをPowerShellコンソールから実行できます。たとえば、Windows Media Playerで動画を再生してみましょう。
+```
+PS C:\work> & "C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /fullscreen "C:\work\180283-863760534_small.mp4"
+```
+※ファイルパスに空白が含まれる場合は、パスを「"」で囲む必要があります。<br>
+※[「&」は呼び出し演算子](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-7.4#call-operator-)と呼ばれるものです。直後の`"C:\Program Files (x86)\Windows Media Player\wmplayer.exe"`を文字列としてではなく、コマンドとして解釈させるためにつけています。<br>
+※`/fullscreen`は、起動時にフルスクリーンにする[オプション](https://learn.microsoft.com/ja-jp/previous-versions/windows/desktop/wmp/command-line-parameters)です。
+
 ### Exit
 PowerShellを終了します。
 
