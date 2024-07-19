@@ -132,6 +132,16 @@ PS C:\work> Copy-Item -Path test.txt -Destination test2.txt
 PS C:\work> Start-Process "notepad"
 ```
 
+### Get-FileHash
+ファイルのハッシュ値を計算できます。ダウンロードしたファイルの整合性チェックに使ったりします。`-Algorithm MD5`部分はハッシュ計算のアルゴリズムを指定しています（他も使える）。
+```
+PS C:\work> Get-FileHash C:\work\test.txt -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             8744320A5722F94517C2F87699A9AEB1                                       C:\work\test.txt
+```
+
 ### アプリ起動
 「.exe」ファイルをPowerShellコンソールから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
 ```
