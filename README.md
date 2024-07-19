@@ -133,7 +133,7 @@ PS C:\work> Start-Process "notepad"
 ```
 
 ### アプリ起動
-「.exe」ファイルをPowerShellコンソールから実行できます。たとえば、Windows Media Playerで動画を再生してみましょう。
+「.exe」ファイルをPowerShellコンソールから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
 ```
 PS C:\work> & "C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /fullscreen "C:\work\180283-863760534_small.mp4"
 ```
