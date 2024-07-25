@@ -154,6 +154,17 @@ PS C:\work> & "C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /fullsc
 ### Exit
 PowerShellを終了します。
 
+### 補足：powershellコマンド
+`powershell`コマンドを使うと、PowerShellスクリプト（「.ps1」ファイル）をコマンドプロンプトから起動できます。
+```
+C:\work>powershell C:\work\testEcho.ps1
+test ps1 file
+```
+「.bat」ファイルはデフォルトでダブルクリックすると実行できるのですが、「.ps1」ファイルはデフォルトではダブルクリックで実行できません。
+`powershell`コマンドを使うと何がうれしいかと言うと、「.bat」ファイル内で`powershell`コマンドを使って「.ps1」ファイルを呼び出すようにしておけば、実質的に「.ps1」ファイルを（「.bat」ファイルの）ダブルクリックで実行できることです。
+
+※これだけ、PowerShellのコマンドレットではなくWindowsバッチのコマンドの話です。
+
 
 ## おためし２：はじめての「.ps1」ファイル
 
