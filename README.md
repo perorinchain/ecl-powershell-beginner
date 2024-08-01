@@ -141,6 +141,7 @@ Algorithm       Hash                                                            
 ---------       ----                                                                   ----
 MD5             8744320A5722F94517C2F87699A9AEB1                                       C:\work\test.txt
 ```
+たとえば[Ubuntuのリリース情報ページ](https://releases.ubuntu.com/noble/)に[SHA256SUMS](https://releases.ubuntu.com/noble/SHA256SUMS)というファイルがあって、これを開くとisoファイルのSHA256ハッシュ値が載っています。ダウンロードしたisoファイルのSHA256ハッシュ値を計算してみて、これがSHA256SUMSに書かれたハッシュ値と合っていれば、（ファイルの内容がちょっとでも違うとまったく別のハッシュ値になるはずなので）破損などなく正しいファイルをダウンロードできた（はず）と考えられます。
 
 ### アプリ起動
 「.exe」ファイルをPowerShellコンソールから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
